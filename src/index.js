@@ -1,17 +1,20 @@
-import React from 'react';
+//1. Import Area
+
+//import Default,{ Named } from 'somelibrary'
+
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import MyComponent from './Components/MyCompoent'
+import MyComponent2 from './Components/MyComponent2'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+//Lets Create our First Component
+function myFunction(){
+  x = 10; //Variable
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//1. RFC
+
+
+
+//ReactDOM.render(What,Where);
+ReactDOM.render( <MyComponent2 />,document.getElementById('root3'));
